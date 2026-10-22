@@ -2,6 +2,8 @@
 
 Five-day RISC-V workshop: from the ISA and GNU toolchain to a complete **5-stage pipelined RV32I CPU in TL-Verilog**, built in [Makerchip](https://makerchip.com).
 
+**Live project:** [Open the CPU in Makerchip](https://myth.makerchip.com/v196/ide/~0M8f0co7/p-0qRcOp)
+
 <table>
   <tr>
     <td align="center">
