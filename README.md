@@ -1,6 +1,6 @@
 # RISC-V CPU: MYTH Workshop
 
-Five-day RISC-V workshop: from the ISA and GNU toolchain to a complete **pipelined RV32I CPU in TL-Verilog**, built in [Makerchip](https://makerchip.com).
+Five-day RISC-V workshop: from the ISA and GNU toolchain to a complete **5-stage pipelined RV32I CPU in TL-Verilog**, built in [Makerchip](https://makerchip.com).
 
 <table>
   <tr>
@@ -378,7 +378,7 @@ The data memory is accessed in `@4`, and loaded data arrives in `@5`. A load red
 
 ## Final design
 
-The CPU is a pipelined RV32I design. Each instruction moves through these stages:
+The CPU is a 5-stage pipelined RV32I design. Each instruction moves through these stages:
 
 | Stage | What happens |
 |---|---|
